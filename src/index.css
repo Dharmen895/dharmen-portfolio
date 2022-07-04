@@ -51,6 +51,7 @@ h1{
 }
 section{
     margin-top: 8rem;
+    height: 100vh;
 }
 section > h2, section > h5{
     text-align: center;
@@ -97,7 +98,7 @@ img{
     object-fit: cover;
 }
 
-/* ==================MEDIA QUERIES(MEDIUM DEVICWS)================ */
+/* ==================MEDIA QUERIES(MEDIUM DEVICES)================ */
 @media screen and (max-width:1024px) {  
     .container{
         width:var(--container-width-md);
@@ -107,7 +108,7 @@ img{
     }
 }
 
-/* ==================MEDIA QUERIES(SMALL DEVICWS)================ */
+/* ==================MEDIA QUERIES(SMALL DEVICES)================ */
 @media screen and (max-width:600px) {  
     .container{
         width:var(--container-width-sm);
